@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Word Guessing Game</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/scramble.css">
+    </head>
+    <body>
+        <div id="wrapper">
+		 <div id="game-container">
+         <p>Score: <span id="score">0</span></p>
+            <p class="hint"></p>
+            <div id="word-lines"></div>
+            <input id="input-field" type="text" maxlength="1" autofocus autocomplete="off">
+            <button id="button-guess">Guess</button>
+            <button id="button-hint">Hint</button>
+            <p id="lives"></p>
+            <div id="wrong-letters">
+                <p>Wrong letters</p>
+                <h6 class="wrong"></h6>
+            </div>
+            <button id="button-new">New Game</button>
+            <script type="text/javascript" src="js/scramble.js"></script>
+        </div>
+		</div>
+    </body>
+</html>

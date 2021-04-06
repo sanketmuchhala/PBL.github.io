@@ -1,0 +1,81 @@
+
+#mainNav {
+  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color:rgb(100, 126, 240);
+    
+    
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 18px;
+    right: 0;
+    padding: 10px;
+    border: 0;
+  }
+  
+  #mainNav .navbar-brand {
+   
+    font-family: 'Cinzel Decorative';
+  font-size: 18px;
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+   margin-left: 5px;
+  }
+  #mainNav .navbar-brand img{
+    margin-right: 0px;
+    margin-left: 5px;
+    
+  }
+  
+  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #10028a ;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #10028a ;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color:rgb(100, 126, 240);
+      
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: all 0.3s;
+      font-weight:bolder;
+      font-family: 'Cinzel Decorative';
+      font-size: 22px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color:  #fcfcfc;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 18px;
+      padding: 12px 0;
+    }
+ 
+  }
+
