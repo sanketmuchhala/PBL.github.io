@@ -1,4 +1,4 @@
-# PBL.gitthub.io
+# PBL.github.io
 PBL Project
 This out our PBL project 
 
